@@ -1,5 +1,4 @@
 <img width="1264" height="718" alt="image" src="https://github.com/user-attachments/assets/1a65cb9c-23a3-41ec-ab72-b1bf55e5dc77" />
-
 simple to do list app
 also I used Tailwind CSS
 some features need to be added 
