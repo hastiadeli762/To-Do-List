@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <title>to do </title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        .delete-button{
+            background-color: white;
+            border-radius: 5px;
+
+
+        }
+        .completed{
+            text-decoration: line-through;
+        }
+
+    </style>
 </head>
-<body>
-  <h1  class=" block flex justify-center text-4xl p-10"> To Do List App</h1>
-  <div class="flex justify-center items-center h-10 ">
+<body style="background-color: mediumpurple">
+  <h1  class=" block flex justify-center text-4xl p-10 bold text-purple-850 "> To Do List App</h1>
+  <div class="flex justify-center  ">
 
 
-      <div class="bg-pink-200 px-10 py-5">
+      <div class="bg-pink-200 px-5 py-10  ">
       <input id="myInput"  placeholder="what do you wanna do ?">
       <button class=" bg-white rounded " id="addButton"> add </button>
        <ul id="tasks">   </ul>
